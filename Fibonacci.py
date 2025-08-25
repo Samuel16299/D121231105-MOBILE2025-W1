@@ -1,10 +1,4 @@
 def fibonacci_sequence(limit):
-    """
-    Menghasilkan deret Fibonacci hingga batas yang ditentukan.
-
-    Args:
-        limit (int): Batas bilangan bulat untuk deret Fibonacci.
-    """
     if limit < 0:
         print("Masukkan bilangan bulat non-negatif.")
         return
